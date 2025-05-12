@@ -3,24 +3,31 @@
   "WorkspaceRootPath": "C:\\gitreg\\khruev_tomogram_visualizer\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B4966D7B-043B-4412-8583-FCD4310827B4}|khruev_tomogram_visualizer\\khruev_tomogram_visualizer.csproj|c:\\gitreg\\khruev_tomogram_visualizer\\khruev_tomogram_visualizer\\view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4966D7B-043B-4412-8583-FCD4310827B4}|khruev_tomogram_visualizer\\khruev_tomogram_visualizer.csproj|solutionrelative:khruev_tomogram_visualizer\\view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B4966D7B-043B-4412-8583-FCD4310827B4}|khruev_tomogram_visualizer\\khruev_tomogram_visualizer.csproj|C:\\gitreg\\khruev_tomogram_visualizer\\khruev_tomogram_visualizer\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B4966D7B-043B-4412-8583-FCD4310827B4}|khruev_tomogram_visualizer\\khruev_tomogram_visualizer.csproj|solutionrelative:khruev_tomogram_visualizer\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4966D7B-043B-4412-8583-FCD4310827B4}|khruev_tomogram_visualizer\\khruev_tomogram_visualizer.csproj|c:\\gitreg\\khruev_tomogram_visualizer\\khruev_tomogram_visualizer\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B4966D7B-043B-4412-8583-FCD4310827B4}|khruev_tomogram_visualizer\\khruev_tomogram_visualizer.csproj|C:\\gitreg\\khruev_tomogram_visualizer\\khruev_tomogram_visualizer\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4966D7B-043B-4412-8583-FCD4310827B4}|khruev_tomogram_visualizer\\khruev_tomogram_visualizer.csproj|solutionrelative:khruev_tomogram_visualizer\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4966D7B-043B-4412-8583-FCD4310827B4}|khruev_tomogram_visualizer\\khruev_tomogram_visualizer.csproj|C:\\gitreg\\khruev_tomogram_visualizer\\khruev_tomogram_visualizer\\view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4966D7B-043B-4412-8583-FCD4310827B4}|khruev_tomogram_visualizer\\khruev_tomogram_visualizer.csproj|solutionrelative:khruev_tomogram_visualizer\\view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\gitreg\\Tomogram_visualizer\\Tomogram_visualizer\\View1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4966D7B-043B-4412-8583-FCD4310827B4}|khruev_tomogram_visualizer\\khruev_tomogram_visualizer.csproj|C:\\gitreg\\khruev_tomogram_visualizer\\khruev_tomogram_visualizer\\bin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4966D7B-043B-4412-8583-FCD4310827B4}|khruev_tomogram_visualizer\\khruev_tomogram_visualizer.csproj|solutionrelative:khruev_tomogram_visualizer\\bin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4966D7B-043B-4412-8583-FCD4310827B4}|khruev_tomogram_visualizer\\khruev_tomogram_visualizer.csproj|C:\\gitreg\\khruev_tomogram_visualizer\\khruev_tomogram_visualizer\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4966D7B-043B-4412-8583-FCD4310827B4}|khruev_tomogram_visualizer\\khruev_tomogram_visualizer.csproj|solutionrelative:khruev_tomogram_visualizer\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4966D7B-043B-4412-8583-FCD4310827B4}|khruev_tomogram_visualizer\\khruev_tomogram_visualizer.csproj|C:\\gitreg\\khruev_tomogram_visualizer\\khruev_tomogram_visualizer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4966D7B-043B-4412-8583-FCD4310827B4}|khruev_tomogram_visualizer\\khruev_tomogram_visualizer.csproj|solutionrelative:khruev_tomogram_visualizer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4966D7B-043B-4412-8583-FCD4310827B4}|khruev_tomogram_visualizer\\khruev_tomogram_visualizer.csproj|C:\\gitreg\\khruev_tomogram_visualizer\\khruev_tomogram_visualizer\\Bin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4966D7B-043B-4412-8583-FCD4310827B4}|khruev_tomogram_visualizer\\khruev_tomogram_visualizer.csproj|solutionrelative:khruev_tomogram_visualizer\\Bin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4966D7B-043B-4412-8583-FCD4310827B4}|khruev_tomogram_visualizer\\khruev_tomogram_visualizer.csproj|C:\\gitreg\\khruev_tomogram_visualizer\\khruev_tomogram_visualizer\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4966D7B-043B-4412-8583-FCD4310827B4}|khruev_tomogram_visualizer\\khruev_tomogram_visualizer.csproj|solutionrelative:khruev_tomogram_visualizer\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,17 +37,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 283,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\gitreg\\khruev_tomogram_visualizer\\khruev_tomogram_visualizer\\Form1.cs",
               "RelativeDocumentMoniker": "khruev_tomogram_visualizer\\Form1.cs",
-              "ToolTip": "C:\\gitreg\\khruev_tomogram_visualizer\\khruev_tomogram_visualizer\\Form1.cs*",
-              "RelativeToolTip": "khruev_tomogram_visualizer\\Form1.cs*",
-              "ViewState": "AgIAAGMAAAAAAAAAAAA+wHUAAAAMAAAAAAAAAA==",
+              "ToolTip": "C:\\gitreg\\khruev_tomogram_visualizer\\khruev_tomogram_visualizer\\Form1.cs",
+              "RelativeToolTip": "khruev_tomogram_visualizer\\Form1.cs",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAswIwAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-11T06:16:52.424Z",
               "IsPinned": true,
@@ -64,7 +71,33 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "View1.cs",
+              "DocumentMoniker": "C:\\gitreg\\Tomogram_visualizer\\Tomogram_visualizer\\View1.cs",
+              "RelativeDocumentMoniker": "..\\Tomogram_visualizer\\Tomogram_visualizer\\View1.cs",
+              "ToolTip": "C:\\gitreg\\Tomogram_visualizer\\Tomogram_visualizer\\View1.cs",
+              "RelativeToolTip": "..\\Tomogram_visualizer\\Tomogram_visualizer\\View1.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAFUAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T06:23:02.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\gitreg\\khruev_tomogram_visualizer\\khruev_tomogram_visualizer\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "khruev_tomogram_visualizer\\Form1.Designer.cs",
+              "ToolTip": "C:\\gitreg\\khruev_tomogram_visualizer\\khruev_tomogram_visualizer\\Form1.Designer.cs",
+              "RelativeToolTip": "khruev_tomogram_visualizer\\Form1.Designer.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAAwGwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T05:39:17.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\gitreg\\khruev_tomogram_visualizer\\khruev_tomogram_visualizer\\Program.cs",
               "RelativeDocumentMoniker": "khruev_tomogram_visualizer\\Program.cs",
@@ -76,7 +109,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Bin.cs",
               "DocumentMoniker": "C:\\gitreg\\khruev_tomogram_visualizer\\khruev_tomogram_visualizer\\Bin.cs",
               "RelativeDocumentMoniker": "khruev_tomogram_visualizer\\Bin.cs",
@@ -84,29 +117,30 @@
               "RelativeToolTip": "khruev_tomogram_visualizer\\Bin.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAYwBkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T07:02:26.302Z"
+              "WhenOpened": "2025-05-11T07:02:26.302Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "View.cs",
               "DocumentMoniker": "C:\\gitreg\\khruev_tomogram_visualizer\\khruev_tomogram_visualizer\\View.cs",
               "RelativeDocumentMoniker": "khruev_tomogram_visualizer\\View.cs",
               "ToolTip": "C:\\gitreg\\khruev_tomogram_visualizer\\khruev_tomogram_visualizer\\View.cs",
               "RelativeToolTip": "khruev_tomogram_visualizer\\View.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAQwDwAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAUwJAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-11T07:04:38.373Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\gitreg\\khruev_tomogram_visualizer\\khruev_tomogram_visualizer\\Form1.cs",
               "RelativeDocumentMoniker": "khruev_tomogram_visualizer\\Form1.cs",
-              "ToolTip": "C:\\gitreg\\khruev_tomogram_visualizer\\khruev_tomogram_visualizer\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]*",
-              "RelativeToolTip": "khruev_tomogram_visualizer\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]*",
+              "ToolTip": "C:\\gitreg\\khruev_tomogram_visualizer\\khruev_tomogram_visualizer\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "khruev_tomogram_visualizer\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-28T09:39:32.93Z",
               "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"

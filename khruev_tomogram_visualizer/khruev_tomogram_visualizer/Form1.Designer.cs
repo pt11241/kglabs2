@@ -34,8 +34,15 @@
             this.trackBar1 = new System.Windows.Forms.TrackBar();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.trackBarMin = new System.Windows.Forms.TrackBar();
+            this.trackBarWidth = new System.Windows.Forms.TrackBar();
+            this.labelMin = new System.Windows.Forms.Label();
+            this.labelWidth = new System.Windows.Forms.Label();
+            this.radioButton3 = new System.Windows.Forms.RadioButton();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBarMin)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBarWidth)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -52,17 +59,17 @@
             // открытьToolStripMenuItem
             // 
             this.открытьToolStripMenuItem.Name = "открытьToolStripMenuItem";
-            this.открытьToolStripMenuItem.Size = new System.Drawing.Size(81, 24);
+            this.открытьToolStripMenuItem.Size = new System.Drawing.Size(81, 26);
             this.открытьToolStripMenuItem.Text = "Открыть";
             this.открытьToolStripMenuItem.Click += new System.EventHandler(this.открытьToolStripMenuItem_Click);
             // 
             // glControl1
             // 
             this.glControl1.BackColor = System.Drawing.Color.Black;
-            this.glControl1.Location = new System.Drawing.Point(35, 94);
+            this.glControl1.Location = new System.Drawing.Point(38, 111);
             this.glControl1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.glControl1.Name = "glControl1";
-            this.glControl1.Size = new System.Drawing.Size(843, 374);
+            this.glControl1.Size = new System.Drawing.Size(845, 372);
             this.glControl1.TabIndex = 1;
             this.glControl1.VSync = false;
             this.glControl1.Paint += new System.Windows.Forms.PaintEventHandler(this.glControl1_Paint);
@@ -99,6 +106,53 @@
             this.radioButton2.UseVisualStyleBackColor = true;
             this.radioButton2.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
             // 
+            // trackBarMin
+            // 
+            this.trackBarMin.Location = new System.Drawing.Point(38, 67);
+            this.trackBarMin.Maximum = 2000;
+            this.trackBarMin.Minimum = -2000;
+            this.trackBarMin.Name = "trackBarMin";
+            this.trackBarMin.Size = new System.Drawing.Size(348, 56);
+            this.trackBarMin.TabIndex = 5;
+            this.trackBarMin.Scroll += new System.EventHandler(this.trackBarMin_Scroll);
+            // 
+            // trackBarWidth
+            // 
+            this.trackBarWidth.Location = new System.Drawing.Point(392, 67);
+            this.trackBarWidth.Maximum = 4000;
+            this.trackBarWidth.Minimum = 1;
+            this.trackBarWidth.Name = "trackBarWidth";
+            this.trackBarWidth.Size = new System.Drawing.Size(301, 56);
+            this.trackBarWidth.TabIndex = 6;
+            this.trackBarWidth.Value = 2000;
+            this.trackBarWidth.Scroll += new System.EventHandler(this.trackBarWidth_Scroll);
+            // 
+            // labelMin
+            // 
+            this.labelMin.Location = new System.Drawing.Point(35, 460);
+            this.labelMin.Name = "labelMin";
+            this.labelMin.Size = new System.Drawing.Size(100, 23);
+            this.labelMin.TabIndex = 7;
+            this.labelMin.Text = "Min: 0";
+            this.labelMin.Click += new System.EventHandler(this.labelMin_Click);
+            // 
+            // labelWidth
+            // 
+            this.labelWidth.Location = new System.Drawing.Point(250, 460);
+            this.labelWidth.Name = "labelWidth";
+            this.labelWidth.Size = new System.Drawing.Size(100, 23);
+            this.labelWidth.TabIndex = 8;
+            this.labelWidth.Text = "Width: 2000";
+            // 
+            // radioButton3
+            // 
+            this.radioButton3.Location = new System.Drawing.Point(725, 80);
+            this.radioButton3.Name = "radioButton3";
+            this.radioButton3.Size = new System.Drawing.Size(104, 24);
+            this.radioButton3.TabIndex = 0;
+            this.radioButton3.Text = "QuadStrip";
+            this.radioButton3.CheckedChanged += new System.EventHandler(this.radioButton3_CheckedChanged);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -109,6 +163,11 @@
             this.Controls.Add(this.trackBar1);
             this.Controls.Add(this.glControl1);
             this.Controls.Add(this.menuStrip1);
+            this.Controls.Add(this.trackBarMin);
+            this.Controls.Add(this.trackBarWidth);
+            this.Controls.Add(this.labelMin);
+            this.Controls.Add(this.labelWidth);
+            this.Controls.Add(this.radioButton3);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Form1";
@@ -116,6 +175,8 @@
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBarMin)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBarWidth)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -129,6 +190,12 @@
         private System.Windows.Forms.TrackBar trackBar1;
         private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.TrackBar trackBarMin;
+        private System.Windows.Forms.TrackBar trackBarWidth;
+        private System.Windows.Forms.Label labelMin;
+        private System.Windows.Forms.Label labelWidth;
+        private System.Windows.Forms.RadioButton radioButton3;
+
     }
 }
 

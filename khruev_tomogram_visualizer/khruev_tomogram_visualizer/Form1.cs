@@ -26,6 +26,7 @@ namespace khruev_tomogram_visualizer
         bool loaded = false;
         bool rbutton1 = false;
         bool rbutton2 = false;
+        bool rbutton3 = false;
         int currentLayer = 0;
 
         int FrameCount;
@@ -46,6 +47,8 @@ namespace khruev_tomogram_visualizer
             InitializeComponent();
             bin = new Bin();
             view = new View();
+            trackBarMin.Value = 0;
+            trackBarWidth.Value = 2000;
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -70,6 +73,11 @@ namespace khruev_tomogram_visualizer
                 bin.readBIN(str);
                 trackBar1.Maximum = Bin.Z-1;
                 view.SetupView(glControl1.Width, glControl1.Height);
+
+                trackBarMin.Value = 0;
+                trackBarWidth.Value = 2000;
+                view.SetTransferFunction(0, 2000);
+
                 loaded = true;
                 glControl1.Invalidate();
             }
@@ -82,6 +90,10 @@ namespace khruev_tomogram_visualizer
                 if (rbutton1)
                 {
                     view.DrawQuads(currentLayer);
+                }
+                else if (rbutton3)
+                {
+                    view.DrawQuadStrip(currentLayer);
                 }
                 else
                 {
@@ -116,6 +128,33 @@ namespace khruev_tomogram_visualizer
         private void radioButton2_CheckedChanged(object sender, EventArgs e)
         {
             rbutton2 = radioButton2.Checked;
+        }
+
+
+
+        private void radioButton3_CheckedChanged(object sender, EventArgs e)
+        {
+            rbutton3 = radioButton3.Checked;
+        }
+        private void trackBarMin_Scroll(object sender, EventArgs e)
+        {
+            view.SetTransferFunction(trackBarMin.Value, trackBarWidth.Value);
+            labelMin.Text = $"Min: {trackBarMin.Value}";
+            needReload = true;
+            glControl1.Invalidate();
+        }
+
+        private void trackBarWidth_Scroll(object sender, EventArgs e)
+        {
+            view.SetTransferFunction(trackBarMin.Value, trackBarWidth.Value);
+            labelWidth.Text = $"Width: {trackBarWidth.Value}";
+            needReload = true;
+            glControl1.Invalidate();
+        }
+
+        private void labelMin_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

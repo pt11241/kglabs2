@@ -14,6 +14,8 @@ namespace khruev_tomogram_visualizer
     {
         Bitmap textureImage;
         int VBOtexture;
+        private int tfMin = 0;
+        private int tfWidth = 2000;
 
         public void Load2DTexture()
         {
@@ -94,22 +96,34 @@ namespace khruev_tomogram_visualizer
             GL.Viewport(0, 0, width, height);
 
         }
+        public void SetTransferFunction(int min, int width)
+        {
+            tfMin = min;
+            tfWidth = width;
+        }
+
         public Color TransferFunction(short value)
         {
-            int min = 0;
-            int max = 2000;
-            int newVal = clamp((value - min) * 255 / (max - min), 0, 255);
+            int newVal = clamp((value - tfMin) * 255 / tfWidth, 0, 255);
             return Color.FromArgb(255, newVal, newVal, newVal);
+        }
+
+        public void DrawTriange(int layerNumber)
+        {
+            GL.Clear(ClearBufferMask.ColorBufferBit | ClearBufferMask.DepthBufferBit);
+            GL.Begin(BeginMode.Quads);
+
         }
         public void DrawQuads(int layerNumber)
         {
             GL.Clear(ClearBufferMask.ColorBufferBit | ClearBufferMask.DepthBufferBit);
             GL.Begin(BeginMode.Quads);
             for (int x_coord = 0; x_coord < Bin.X - 1; x_coord++)
+            {
                 for (int y_coord = 0; y_coord < Bin.Y - 1; y_coord++)
                 {
                     short value;
-                    
+
                     value = Bin.array[x_coord + y_coord * Bin.X + layerNumber * Bin.X * Bin.Y];
                     GL.Color3(TransferFunction(value));
                     GL.Vertex2(x_coord, y_coord);
@@ -125,8 +139,36 @@ namespace khruev_tomogram_visualizer
                     value = Bin.array[x_coord + 1 + y_coord * Bin.X + layerNumber * Bin.X * Bin.Y];
                     GL.Color3(TransferFunction(value));
                     GL.Vertex2(x_coord + 1, y_coord);
-                }
+                }   
+                    
+            }
             GL.End();
         }
+
+        public void DrawQuadStrip(int layerNumber)
+        {
+            GL.Clear(ClearBufferMask.ColorBufferBit | ClearBufferMask.DepthBufferBit);
+            GL.Begin(PrimitiveType.QuadStrip);
+
+            for (int y_coord = 0; y_coord < Bin.Y - 1; y_coord++)
+            {
+                for (int x_coord = 0; x_coord < Bin.X; x_coord++)
+                {
+
+                    int pixelNumber1 = x_coord + y_coord * Bin.X + layerNumber * Bin.X * Bin.Y;
+                    short value1 = Bin.array[pixelNumber1];
+                    GL.Color3(TransferFunction(value1));
+                    GL.Vertex2(x_coord, y_coord);
+
+                    int pixelNumber2 = x_coord + (y_coord + 1) * Bin.X + layerNumber * Bin.X * Bin.Y;
+                    short value2 = Bin.array[pixelNumber2];
+                    GL.Color3(TransferFunction(value2));
+                    GL.Vertex2(x_coord, y_coord + 1);
+                }
+            }
+
+            GL.End();
+        }
+
     }
 }
