@@ -1,0 +1,17 @@
+C:\gitreg\kglabs2\RayTracing\RayTracing\obj\Debug\RayTracing.csproj.AssemblyReference.cache
+C:\gitreg\kglabs2\RayTracing\RayTracing\obj\Debug\RayTracing.Form1.resources
+C:\gitreg\kglabs2\RayTracing\RayTracing\obj\Debug\RayTracing.Properties.Resources.resources
+C:\gitreg\kglabs2\RayTracing\RayTracing\obj\Debug\RayTracing.csproj.GenerateResource.cache
+C:\gitreg\kglabs2\RayTracing\RayTracing\obj\Debug\RayTracing.csproj.CoreCompileInputs.cache
+C:\gitreg\kglabs2\RayTracing\RayTracing\bin\Debug\RayTracing.exe.config
+C:\gitreg\kglabs2\RayTracing\RayTracing\bin\Debug\RayTracing.exe
+C:\gitreg\kglabs2\RayTracing\RayTracing\bin\Debug\RayTracing.pdb
+C:\gitreg\kglabs2\RayTracing\RayTracing\bin\Debug\OpenTK.dll
+C:\gitreg\kglabs2\RayTracing\RayTracing\bin\Debug\OpenTK.GLControl.dll
+C:\gitreg\kglabs2\RayTracing\RayTracing\bin\Debug\OpenTK.pdb
+C:\gitreg\kglabs2\RayTracing\RayTracing\bin\Debug\OpenTK.xml
+C:\gitreg\kglabs2\RayTracing\RayTracing\bin\Debug\OpenTK.dll.config
+C:\gitreg\kglabs2\RayTracing\RayTracing\bin\Debug\OpenTK.GLControl.xml
+C:\gitreg\kglabs2\RayTracing\RayTracing\obj\Debug\RayTracing.csproj.Up2Date
+C:\gitreg\kglabs2\RayTracing\RayTracing\obj\Debug\RayTracing.exe
+C:\gitreg\kglabs2\RayTracing\RayTracing\obj\Debug\RayTracing.pdb
